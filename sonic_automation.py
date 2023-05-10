@@ -20,7 +20,7 @@ def abre_navegador(url):
     return navegador
 
 ######Parametros inciais#######
-navegador = abre_navegador('https://179.190.54.69:1312/sgms/auth')
+navegador = abre_navegador('sua url')
 data = date.today()
 yesterday = data - timedelta(1)
 
